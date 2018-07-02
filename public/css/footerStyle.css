@@ -1,0 +1,11 @@
+footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+    background: #545454;
+    color: #ddd;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
