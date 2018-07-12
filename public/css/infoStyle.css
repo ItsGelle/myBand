@@ -1,0 +1,105 @@
+
+.container {
+    padding-left: 40px;
+}
+
+.wrapper {
+    width: 53.9em;
+    justify-self: center;
+}
+/* Modaal venster */
+#achtergrond {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+}
+
+#venster {
+    width: 40vw;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+    background-color: white;
+    padding: 2em;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+h2 {
+    margin-top: 1.5em;
+    line-height: 1px;
+}
+
+
+/* Foto's*/
+.trigger {
+    width: 1px;
+}
+
+.trigger img {
+    height: 15em;
+}
+
+.inhoud__img {
+    height: 10em;
+    max-width: 100%;
+}
+
+/* sluit button*/
+#sluiten {
+    float: right;
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+}
+
+#sluiten:hover {
+    cursor: pointer;
+}
+
+#sluiten:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 874px) {
+    .container {
+        display: block;
+    }
+
+    .wrapper {
+        width: 20em;
+    }
+}
+
+@media only screen and (max-width: 657px) {
+    #achtergrond {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: grid;
+    }
+
+    #venster {
+        width: 40vh;
+        border-radius: 10px;
+        justify-self: center;
+        align-self: center;
+        background-color: white;
+        padding: 2em;
+        max-height: 80vh;
+        overflow: auto;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .trigger img {
+        height: 13.4em;
+    }
+}

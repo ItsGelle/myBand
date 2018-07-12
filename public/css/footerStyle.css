@@ -1,0 +1,19 @@
+footer {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 1em;
+    background: #545454;
+    color: #ddd;
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+}
+
+.footerClass {
+    top: 55em;
+    position:fixed;
+    z-index: 1000;
+    width: 100%;
+}

@@ -1,0 +1,112 @@
+.link {
+    color: #ddd;
+}
+
+label {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.phone, .tickets, .lightPhoto {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*FIXED = PARALLEX
+     SCROLL = NORMAL*/
+    background-attachment: fixed;
+}
+
+.phone {
+    background-image: url('../images/Phone.jpeg');
+    min-height: 700px;
+}
+
+.tickets {
+    background-image: url('../images/Tickets.jpg');
+    min-height: 400px;
+}
+
+.lightPhoto {
+    background-image: url('../images/lightPhoto.jpeg');
+    min-height: 65px;
+}
+
+
+
+.sectionContact {
+    background-color: #f4f4f4;
+    color: #666;
+    text-align: center;
+    padding: 50px 70px;
+}
+
+.ptextContact .borderContact{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptextContact {
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.ptextContact .borderContact .transContact {
+    background-color: transparent;
+}
+
+/*TICKETS*/
+
+.sectionTickets {
+    text-align: center;
+}
+
+.section-darkTickets {
+    background-color: #545454;
+    color: #ddd;
+}
+
+.ptextTickets {
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+
+/*TEXT MIDDEN IN PLAATJE TICKETS*/
+.ptextTickets .borderTickets {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptextTickets .borderTickets .transTickets {
+    background-color: transparent;
+}
+
+@media(max-width: 568px) {
+    .phone, .tickets, .lightPhoto {
+        background-attachment: scroll;
+    }
+}
